@@ -1,0 +1,62 @@
+html {
+    font-size: 14px;    /*Устанавливает базовый размер шрифта для всего документа на 14 пикселей.*/
+}
+
+@media (min-width: 768px) {     /*Увеличивает размер шрифта до 16 пикселей, если ширина экрана 768 пикселей или больше.*/
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb; /*Применяет тень к кнопкам и полям ввода, 
+                                                           когда они находятся в состоянии действия, например при клике*/
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.navbar .text-dark { /*Стили для текстов в навигации*/
+
+    color: rgb(255 255 255) !important;
+    font-size: 12px;
+}
+
+header { /*Стили для шапки*/
+    margin: 0; /*Убирает отступы*/
+    font-family: Arial, Helvetica, sans-serif; /*стиль шрифта*/
+    background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68));  /*градиент с прозрачночтью*/
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+}
+
+
+body {
+    margin-bottom: 60px; /*Устанавливает нижний отступ для тела документа в 60 пикселей*/
+}
+
+footer {   /*устанавливает фон*/
+    background-color: gold;
+}
+
+.banner_horizon img { /*стиль для изображения (баннера)*/
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+
+.horizon_banner_text img { /*стиль для изображения (картинки)*/
+    width: 450px;
+    height: 150px;
+    margin-top: -65%; /*отступ вверх или вниз*/
+    margin-left: 25px; /*отступ влево*/
+}
+
+.logo img { /*стиль для логотипа (картинки)*/
+    width: 100px;
+    margin-left: 30px;
+}
